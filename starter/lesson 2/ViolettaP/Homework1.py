@@ -14,3 +14,4 @@ s = pi * (radius**2)
 
 print(radius)
 print("This is the area of your cicle: ", s)
+# doesnt work
