@@ -1,0 +1,25 @@
+import math
+
+x=input("введите число x")
+x=int(x)
+b=input("введите знак b")
+b=str(b)
+y=input("введите число у")
+y=int(y)
+if b==str("+"):
+    print (x+y)
+elif b==str("-"):
+    print (x-y)
+elif b == str("*"):
+    print(x * y)
+elif b==str("/"):
+    print (x/y)
+elif b==str("^"):
+    print(x**y)
+elif b==str("sin"):
+    print(math.sin(x))
+elif b==str("cos"):
+    print(math.cos(x))
+elif b == str("tan"):
+    print(math.tan(x))
+else: print ("не верный знак")
